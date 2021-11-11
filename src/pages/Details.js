@@ -10,8 +10,7 @@ import {
 } from 'react-native';
 import Layout from '../common/Layout';
 import s from '../assets/Style//style';
-import {DEVICE_HEIGTH, DEVICE_WIDTH, ITEM_LISTING} from '../constants';
-import {color} from 'react-native-reanimated';
+import {DEVICE_HEIGTH, DEVICE_WIDTH} from '../constants';
 import {goBack, navigate} from '../route/navigationService';
 import {useDispatch, useSelector} from 'react-redux';
 
